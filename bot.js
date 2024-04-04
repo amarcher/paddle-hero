@@ -17,6 +17,23 @@ class Bot {
 
     // Return the direction you'd like to move here:
     // "north" "south" "east" "west" or "none"
+
+    if (paddle.x < ball.x) {
+      return "east";
+    }
+
+    if (paddle.x > ball.x) {
+      return "west";
+    }
+
+    if (paddle.y < ball.y) {
+      return "north";
+    }
+    
+    if (paddle.y > ball.y) {
+      return "south";
+    }
+
     return "none";
   }
 
