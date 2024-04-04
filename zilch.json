@@ -1,0 +1,9 @@
+{
+  "v": 1,
+  "name": "Paddle Hero",
+  "avatar": "GkiGaabbcisqieeaa",
+  "preferredColor": "turquoise",
+  "language": "javascript.node",
+  "game": "table-tennis",
+  "run": "node main.js"
+}
